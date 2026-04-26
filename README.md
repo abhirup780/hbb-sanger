@@ -147,4 +147,4 @@ HGVS coordinates are relative to NM_000518.5 (CDS start = genomic 978).
 
 ## License
 
-MIT © 2024 Abhirup Datta
+MIT © 2024 Abhirup Sarkar
