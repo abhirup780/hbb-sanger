@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ABI trace files (patient data — never commit)
+*.ab1
+test-abi-files/
+
+# Dev / project-internal notes
+CLAUDE.md
+HBB_Pipeline_Master_Prompt.md
+HBB_reference_sequence.txt
+.claude/
+.agents/
+graphify-out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
