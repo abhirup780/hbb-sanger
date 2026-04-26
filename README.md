@@ -9,6 +9,15 @@
 
 ---
 
+## Live Demo
+
+**Try it online — no installation required:**  
+[https://hbb-sanger.streamlit.app/](https://hbb-sanger.streamlit.app/)
+
+> **Note:** Heterozygous indel detection via tracy is not available on the online deployment. For full functionality including tracy-based TIDE decomposition, run the app locally.
+
+---
+
 ## Features
 
 | Capability | Detail |
