@@ -188,8 +188,9 @@ def run_pipeline(
                     warnings.append(f"Tracy decompose failed ({exc}) — falling back to alignment-only calling")
             else:
                 warnings.append(
-                    "tracy not found on PATH — DEL/DUP detection unavailable. "
-                    "Install via: conda install -c bioconda tracy"
+                    "ℹ️ Heterozygous DEL/DUP detection is not available in this online version. "
+                    "SNV calling and alignment-based indel detection are fully active. "
+                    "For complete HET indel analysis, run the pipeline locally with tracy installed."
                 )
 
             merged, consensus = _run_variant_pipeline(
